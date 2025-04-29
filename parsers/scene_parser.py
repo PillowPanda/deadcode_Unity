@@ -38,9 +38,9 @@ def parse_unity_yaml(file_path):
 
     return objects
 
-# Example run
 if __name__ == "__main__":
-    path = "datasets/sample_projects/ExampleScene.prefab"  # <-- adjust to your test file
+    path = "datasets/open-project-1-main/UOP1_Project/Assets/Scenes/Menus/MainMenu.unity"
     ui_objects = parse_unity_yaml(path)
     for obj in ui_objects:
         print(obj)
+
