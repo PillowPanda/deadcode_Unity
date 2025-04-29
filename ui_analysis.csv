@@ -1,0 +1,53 @@
+file,ui_element_count,ui_element_types,file_type,directory_level
+datasets/open-project-1-main/UOP1_Project/Assets/Scenes/Managers/PersistentManagers.unity,7,['Canvas'],unity,4
+datasets/open-project-1-main/UOP1_Project/Assets/Scenes/Managers/Gameplay.unity,1,['Canvas'],unity,4
+datasets/open-project-1-main/UOP1_Project/Assets/Scenes/Examples/LocalizationTest.unity,4,['Canvas'],unity,4
+datasets/open-project-1-main/UOP1_Project/Assets/Scenes/Menus/MainMenu.unity,2,"['Canvas', 'Button']",unity,4
+datasets/open-project-1-main/UOP1_Project/Assets/Scenes/WIP/Settings System.unity,120,"['Dropdown', 'Toggle', 'Slider', 'Canvas', 'Button']",unity,4
+datasets/open-project-1-main/UOP1_Project/Assets/Scenes/WIP/UI Integration.unity,1,['Canvas'],unity,4
+datasets/open-project-1-main/UOP1_Project/Assets/Scenes/Whiteboxing/Community/GeneralMap/GeneralMap_Proposal 1.unity,21,['Canvas'],unity,6
+datasets/open-project-1-main/UOP1_Project/Assets/Scenes/Whiteboxing/Community/GeneralMapMediumMultipleScenes/SpawnScene.unity,3,['Canvas'],unity,6
+datasets/open-project-1-main/UOP1_Project/Assets/Scenes/Whiteboxing/Community/GeneralMapReduced/GeneralMapReduced.unity,3,['Canvas'],unity,6
+datasets/open-project-1-main/UOP1_Project/Assets/Scenes/Whiteboxing/Community/Beach/Proposal_1/BeachWhiteboxing_1_optimized.unity,6,['Canvas'],unity,7
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/Cutscenes/BeachIntroCutscene.prefab,3,['Canvas'],prefab,4
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/Cutscenes/BeachGameEndCutscene.prefab,2,['Canvas'],prefab,4
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/InteractionDisplay.prefab,8,"['Canvas', 'Button']",prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Mask.prefab,1,['Canvas'],prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/SwitchTabDisplay.prefab,13,"['Canvas', 'Button']",prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/InteractionItem.prefab,3,"['Canvas', 'Button']",prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/GameScreen.prefab,2,['Canvas'],prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/InventoryDisplay.prefab,7,"['Canvas', 'Button']",prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Pause_Screen.prefab,14,"['Canvas', 'Button']",prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Canvas-Gameplay.prefab,2,['Canvas'],prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Health System/UIHealthDisplay.prefab,1,['Canvas'],prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Health System/Heart.prefab,4,['Canvas'],prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Dialogue/ButtonChoice.prefab,7,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Dialogue/DialoguePanel.prefab,12,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Inventory/ActionButton.prefab,5,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Inventory/InspectorIngredient.prefab,1,['Canvas'],prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Inventory/IngredientForRecipe.prefab,11,['Canvas'],prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Inventory/AddToInventory_animation.prefab,4,['Canvas'],prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Inventory/InventoryScreen.prefab,20,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Inventory/InventoryTab.prefab,5,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Inventory/InspectorDescription.prefab,4,['Canvas'],prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Inventory/InventoryItem.prefab,13,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/GameplayScene/Inventory/Inventory Inspector.prefab,4,['Canvas'],prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/Shared/Settings/Tab_Item.prefab,3,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/Shared/Settings/ImagePagination.prefab,1,['Canvas'],prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/Shared/Settings/Settings_Panel.prefab,20,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/Shared/Settings/Setting_Field.prefab,10,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/Shared/Settings/Settings_Buttons_Panel.prefab,4,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/Shared/Popup/Confirmation_Popup.prefab,13,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/Shared/Popup/GenericButton.prefab,7,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/Shared/Button/Button.prefab,3,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/Shared/Button/UIButtonPrompt.prefab,4,"['Canvas', 'Button']",prefab,6
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/MainMenu/Canvas-MainMenu.prefab,4,"['Canvas', 'Button']",prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/MainMenu/ButtonMenu.prefab,5,"['Canvas', 'Button']",prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/MainMenu/MainMenu_Panel.prefab,12,"['Canvas', 'Button']",prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/UI/WIP/Credits_Panel.prefab,6,"['Canvas', 'Button']",prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/EditorTools/LocationButton.prefab,4,"['Canvas', 'Button']",prefab,4
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/EditorTools/EditorTeleporter.prefab,13,"['Canvas', 'Button']",prefab,4
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/Characters/PigChef.prefab,4,['Toggle'],prefab,4
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/Characters/NPCs_Unique/BardHare.prefab,2,['Toggle'],prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/Prefabs/Characters/NPCs_Unique/ChefComb.prefab,1,['Toggle'],prefab,5
+datasets/open-project-1-main/UOP1_Project/Assets/WIP/Prefabs/DebugMenu.prefab,37,"['Canvas', 'Button']",prefab,4

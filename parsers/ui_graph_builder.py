@@ -1,46 +1,78 @@
+import os
+import yaml
 import networkx as nx
+import matplotlib.pyplot as plt
+import pandas as pd
 
-class UIGraphBuilder:
-    def __init__(self):
-        self.graph = nx.DiGraph()
+def parse_ui_elements(filepath):
+    with open(filepath, 'r', encoding='utf-8') as f:
+        data = f.read()
+    
+    raw_objects = data.split('--- !u!')
+    ui_objects = []
 
-    def add_ui_objects(self, ui_objects):
-        """
-        ui_objects: List of UnityUIObject from scene_parser_v3
-        """
+    for obj in raw_objects:
+        if 'Button' in obj or 'Dropdown' in obj or 'Toggle' in obj or 'Slider' in obj:
+            lines = obj.splitlines()
+            for line in lines:
+                if 'm_Name:' in line:
+                    name = line.split(':',1)[1].strip()
+                    if name:
+                        ui_objects.append(name)
+    return ui_objects
+
+def build_ui_graph(file_list):
+    G = nx.DiGraph()
+    
+    for filepath in file_list:
+        filename = os.path.basename(filepath)
+        ui_objects = parse_ui_elements(filepath)
+        print(f"[DEBUG] {filename}: {len(ui_objects)} UI Objects")
+
         for obj in ui_objects:
-            from_node = obj.name
-            # If no targets, just add the button node
-            if not obj.targets:
-                self.graph.add_node(from_node)
-            else:
-                for target in obj.targets:
-                    # Add an edge for each target the button triggers
-                    self.graph.add_edge(from_node, target)
+            G.add_node(obj, file=filename)
+            # Example linking: (This can be improved later)
+            if 'Button' in obj or 'button' in obj.lower():
+                G.add_edge(obj, filename)  # Button -> file
+    return G
 
-    def visualize_graph(self, output_path="outputs/ui_graph.png"):
-        import matplotlib.pyplot as plt
-        
-        plt.figure(figsize=(10, 8))
-        pos = nx.spring_layout(self.graph, seed=42)
-        nx.draw(self.graph, pos, with_labels=True, node_color='lightblue', edge_color='gray', node_size=2000, font_size=10)
-        plt.title("Unity UI Navigation Graph")
-        plt.savefig(output_path)
-        plt.close()
-        print(f"Graph saved to {output_path}")
+def visualize_graph(G, output_path='outputs/ui_graph_colored_v2.png'):
+    plt.figure(figsize=(20, 20))
+    pos = nx.spring_layout(G, seed=42)
 
-    def print_graph_info(self):
-        print("Nodes (UI States):", list(self.graph.nodes))
-        print("Edges (Transitions):", list(self.graph.edges))
+    reachable_nodes = set()
+    for node in G.nodes:
+        if G.in_degree(node) > 0 or G.out_degree(node) > 0:
+            reachable_nodes.add(node)
 
-# Example usage
+    colors = []
+    for node in G.nodes:
+        if node in reachable_nodes:
+            colors.append('lightblue')
+        else:
+            colors.append('lightcoral')
+
+    nx.draw_networkx_nodes(G, pos, node_color=colors, node_size=100)
+    nx.draw_networkx_edges(G, pos, arrows=True, arrowstyle='->')
+    nx.draw_networkx_labels(G, pos, font_size=8)
+    plt.axis('off')
+    plt.title('UI Graph (Reachable vs Unreachable Nodes)', fontsize=16)
+    plt.tight_layout()
+    plt.savefig(output_path)
+    plt.close()
+    print(f"\u2705 Colored graph saved to {output_path}")
+
+def export_graph_gephi(G, output_path='outputs/ui_graph_v2.gexf'):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    nx.write_gexf(G, output_path)
+    print(f"\u2705 GEXF file for Gephi saved: {output_path}")
+
 if __name__ == "__main__":
-    from scene_parser_v3 import parse_unity_yaml
+    # Corrected: Read only UI files from analysis csv
+    df = pd.read_csv('ui_analysis.csv')
+    df_ui = df[df['ui_element_count'] > 0]
+    file_list = df_ui['file'].tolist()
 
-    path = "datasets/open-project-1-main/UOP1_Project/Assets/Scenes/Menus/MainMenu.unity"  # Adjust to your actual file
-    ui_objects = parse_unity_yaml(path)
-
-    builder = UIGraphBuilder()
-    builder.add_ui_objects(ui_objects)
-    builder.print_graph_info()
-    builder.visualize_graph()
+    G = build_ui_graph(file_list)
+    visualize_graph(G)
+    export_graph_gephi(G)

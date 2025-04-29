@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="method" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="PersistentManagers.unity::Unnamed" />
+    <node id="PersistentManagers.unity::Canvas" />
+    <node id="Gameplay.unity::Unnamed" />
+    <node id="LocalizationTest.unity::Unnamed" />
+    <node id="LocalizationTest.unity::Canvas" />
+    <node id="MainMenu.unity::Unnamed" />
+    <node id="Settings System.unity::Fullscreen Toggle" />
+    <node id="Settings System.unity::Unnamed" />
+    <node id="Settings System.unity::Save Button Text" />
+    <node id="Settings System.unity::Canvas" />
+    <node id="Settings System.unity::Input Button Text" />
+    <node id="Settings System.unity::Languages Dropdown" />
+    <node id="Settings System.unity::General Button" />
+    <node id="Settings System.unity::Music Volume Slider" />
+    <node id="Settings System.unity::Save Button" />
+    <node id="Settings System.unity::Shadow Distance Slider" />
+    <node id="Settings System.unity::Anisotropic Filtering Dropdown" />
+    <node id="Settings System.unity::Shadow Quality Dropdown" />
+    <node id="Settings System.unity::Resolutions Dropdown" />
+    <node id="Settings System.unity::General Button Text" />
+    <node id="Settings System.unity::Graphics Presets Dropdown" />
+    <node id="Settings System.unity::Graphics Button" />
+    <node id="Settings System.unity::Cancel Button" />
+    <node id="Settings System.unity::Audio Button" />
+    <node id="Settings System.unity::SFX Volume Slider" />
+    <node id="Settings System.unity::Audio Button Text" />
+    <node id="Settings System.unity::Input Button" />
+    <node id="Settings System.unity::Anti-Aliasing Slider" />
+    <node id="Settings System.unity::Graphics Button Text" />
+    <node id="UI Integration.unity::Unnamed" />
+    <node id="GeneralMap_Proposal 1.unity::Unnamed" />
+    <node id="SpawnScene.unity::Canvas" />
+    <node id="SpawnScene.unity::Unnamed" />
+    <node id="GeneralMapReduced.unity::Canvas" />
+    <node id="GeneralMapReduced.unity::Unnamed" />
+    <node id="BeachWhiteboxing_1_optimized.unity::Unnamed" />
+    <node id="BeachIntroCutscene.prefab::Canvas" />
+    <node id="BeachIntroCutscene.prefab::Unnamed" />
+    <node id="BeachGameEndCutscene.prefab::Canvas" />
+    <node id="BeachGameEndCutscene.prefab::Unnamed" />
+    <node id="InteractionDisplay.prefab::ButtonController" />
+    <node id="InteractionDisplay.prefab::Unnamed" />
+    <node id="InteractionDisplay.prefab::ButtonKeyboard" />
+    <node id="Mask.prefab::Unnamed" />
+    <node id="SwitchTabDisplay.prefab::ButtonKeyboard (1)" />
+    <node id="SwitchTabDisplay.prefab::Unnamed" />
+    <node id="SwitchTabDisplay.prefab::ButtonController (1)" />
+    <node id="SwitchTabDisplay.prefab::ButtonKeyboard" />
+    <node id="SwitchTabDisplay.prefab::ButtonController" />
+    <node id="InteractionItem.prefab::Unnamed" />
+    <node id="GameScreen.prefab::Unnamed" />
+    <node id="InventoryDisplay.prefab::Unnamed" />
+    <node id="InventoryDisplay.prefab::ButtonController" />
+    <node id="InventoryDisplay.prefab::ButtonKeyboard" />
+    <node id="Pause_Screen.prefab::Panel Buttons" />
+    <node id="Pause_Screen.prefab::Unnamed" />
+    <node id="Canvas-Gameplay.prefab::Canvas-Gameplay" />
+    <node id="Canvas-Gameplay.prefab::Unnamed" />
+    <node id="UIHealthDisplay.prefab::Unnamed" />
+    <node id="Heart.prefab::Unnamed" />
+    <node id="ButtonChoice.prefab::ButtonToClick" />
+    <node id="ButtonChoice.prefab::Unnamed" />
+    <node id="ButtonChoice.prefab::ButtonChoice" />
+    <node id="ButtonChoice.prefab::{fileID: 1448887160}" />
+    <node id="DialoguePanel.prefab::Unnamed" />
+    <node id="ActionButton.prefab::Unnamed" />
+    <node id="ActionButton.prefab::ActionButton" />
+    <node id="ActionButton.prefab::{fileID: 8812776211489027372}" />
+    <node id="InspectorIngredient.prefab::Unnamed" />
+    <node id="IngredientForRecipe.prefab::Unnamed" />
+    <node id="AddToInventory_animation.prefab::Unnamed" />
+    <node id="InventoryScreen.prefab::Unnamed" />
+    <node id="InventoryScreen.prefab::ButtonPreviewLeft (1)" />
+    <node id="InventoryScreen.prefab::ButtonPreviewLeft" />
+    <node id="InventoryTab.prefab::Unnamed" />
+    <node id="InventoryTab.prefab::{fileID: 7574264689645128330}" />
+    <node id="InspectorDescription.prefab::Unnamed" />
+    <node id="InventoryItem.prefab::Unnamed" />
+    <node id="InventoryItem.prefab::ButtonItem" />
+    <node id="Inventory Inspector.prefab::Unnamed" />
+    <node id="Tab_Item.prefab::Unnamed" />
+    <node id="ImagePagination.prefab::Unnamed" />
+    <node id="Settings_Panel.prefab::Unnamed" />
+    <node id="Setting_Field.prefab::ButtonNext" />
+    <node id="Setting_Field.prefab::Unnamed" />
+    <node id="Setting_Field.prefab::ButtonPrevious" />
+    <node id="Settings_Buttons_Panel.prefab::Settings_Buttons_Panel" />
+    <node id="Settings_Buttons_Panel.prefab::Unnamed" />
+    <node id="Confirmation_Popup.prefab::Unnamed" />
+    <node id="Confirmation_Popup.prefab::Panel Buttons" />
+    <node id="GenericButton.prefab::ButtonToClick" />
+    <node id="GenericButton.prefab::Unnamed" />
+    <node id="GenericButton.prefab::GenericButton" />
+    <node id="GenericButton.prefab::ButtonText" />
+    <node id="GenericButton.prefab::{fileID: 1342405351670587650}" />
+    <node id="Button.prefab::Button" />
+    <node id="Button.prefab::Unnamed" />
+    <node id="UIButtonPrompt.prefab::UIButtonPrompt" />
+    <node id="UIButtonPrompt.prefab::Unnamed" />
+    <node id="Canvas-MainMenu.prefab::Unnamed" />
+    <node id="Canvas-MainMenu.prefab::Canvas-MainMenu" />
+    <node id="ButtonMenu.prefab::Unnamed" />
+    <node id="ButtonMenu.prefab::ButtonMenu" />
+    <node id="MainMenu_Panel.prefab::Unnamed" />
+    <node id="MainMenu_Panel.prefab::Panel Buttons" />
+    <node id="Credits_Panel.prefab::Unnamed" />
+    <node id="LocationButton.prefab::LocationButton" />
+    <node id="LocationButton.prefab::Unnamed" />
+    <node id="LocationButton.prefab::{fileID: 8617751215920211420}" />
+    <node id="EditorTeleporter.prefab::Unnamed" />
+    <node id="EditorTeleporter.prefab::Canvas" />
+    <node id="PigChef.prefab::Unnamed" />
+    <node id="BardHare.prefab::Unnamed" />
+    <node id="ChefComb.prefab::Unnamed" />
+    <node id="DebugMenu.prefab::Button (3)" />
+    <node id="DebugMenu.prefab::Unnamed" />
+    <node id="DebugMenu.prefab::Button" />
+    <node id="DebugMenu.prefab::Button (1)" />
+    <node id="DebugMenu.prefab::Button (2)" />
+    <node id="DebugMenu.prefab::Canvas" />
+    <edge source="ButtonChoice.prefab::Unnamed" target="ButtonChoice.prefab::{fileID: 1448887160}">
+      <data key="d0">ButtonClicked</data>
+    </edge>
+    <edge source="ActionButton.prefab::Unnamed" target="ActionButton.prefab::{fileID: 8812776211489027372}">
+      <data key="d0">ClickActionButton</data>
+    </edge>
+    <edge source="InventoryTab.prefab::Unnamed" target="InventoryTab.prefab::{fileID: 7574264689645128330}">
+      <data key="d0">ClickButton</data>
+    </edge>
+    <edge source="GenericButton.prefab::Unnamed" target="GenericButton.prefab::{fileID: 1342405351670587650}">
+      <data key="d0">Click</data>
+    </edge>
+    <edge source="LocationButton.prefab::Unnamed" target="LocationButton.prefab::{fileID: 8617751215920211420}">
+      <data key="d0">IssueTeleport</data>
+    </edge>
+  </graph>
+</graphml>

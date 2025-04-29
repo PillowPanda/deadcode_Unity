@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-04-29">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="PersistentManagers.unity::Canvas" label="PersistentManagers.unity::Canvas" />
+      <node id="Gameplay.unity::Canvas" label="Gameplay.unity::Canvas" />
+      <node id="LocalizationTest.unity::Canvas" label="LocalizationTest.unity::Canvas" />
+      <node id="MainMenu.unity::Button" label="MainMenu.unity::Button" />
+      <node id="MainMenu.unity::Canvas" label="MainMenu.unity::Canvas" />
+      <node id="Settings System.unity::Toggle" label="Settings System.unity::Toggle" />
+      <node id="Settings System.unity::Canvas" label="Settings System.unity::Canvas" />
+      <node id="Settings System.unity::Button" label="Settings System.unity::Button" />
+      <node id="Settings System.unity::Dropdown" label="Settings System.unity::Dropdown" />
+      <node id="Settings System.unity::Slider" label="Settings System.unity::Slider" />
+      <node id="UI Integration.unity::Canvas" label="UI Integration.unity::Canvas" />
+      <node id="GeneralMap_Proposal 1.unity::Canvas" label="GeneralMap_Proposal 1.unity::Canvas" />
+      <node id="SpawnScene.unity::Canvas" label="SpawnScene.unity::Canvas" />
+      <node id="GeneralMapReduced.unity::Canvas" label="GeneralMapReduced.unity::Canvas" />
+      <node id="BeachWhiteboxing_1_optimized.unity::Canvas" label="BeachWhiteboxing_1_optimized.unity::Canvas" />
+      <node id="BeachIntroCutscene.prefab::Canvas" label="BeachIntroCutscene.prefab::Canvas" />
+      <node id="BeachGameEndCutscene.prefab::Canvas" label="BeachGameEndCutscene.prefab::Canvas" />
+      <node id="InteractionDisplay.prefab::Button" label="InteractionDisplay.prefab::Button" />
+      <node id="InteractionDisplay.prefab::Canvas" label="InteractionDisplay.prefab::Canvas" />
+      <node id="Mask.prefab::Canvas" label="Mask.prefab::Canvas" />
+      <node id="SwitchTabDisplay.prefab::Button" label="SwitchTabDisplay.prefab::Button" />
+      <node id="SwitchTabDisplay.prefab::Canvas" label="SwitchTabDisplay.prefab::Canvas" />
+      <node id="InteractionItem.prefab::Canvas" label="InteractionItem.prefab::Canvas" />
+      <node id="InteractionItem.prefab::Button" label="InteractionItem.prefab::Button" />
+      <node id="GameScreen.prefab::Canvas" label="GameScreen.prefab::Canvas" />
+      <node id="InventoryDisplay.prefab::Canvas" label="InventoryDisplay.prefab::Canvas" />
+      <node id="InventoryDisplay.prefab::Button" label="InventoryDisplay.prefab::Button" />
+      <node id="Pause_Screen.prefab::Button" label="Pause_Screen.prefab::Button" />
+      <node id="Pause_Screen.prefab::Canvas" label="Pause_Screen.prefab::Canvas" />
+      <node id="Canvas-Gameplay.prefab::Canvas" label="Canvas-Gameplay.prefab::Canvas" />
+      <node id="UIHealthDisplay.prefab::Canvas" label="UIHealthDisplay.prefab::Canvas" />
+      <node id="Heart.prefab::Canvas" label="Heart.prefab::Canvas" />
+      <node id="ButtonChoice.prefab::Button" label="ButtonChoice.prefab::Button" />
+      <node id="ButtonChoice.prefab::Canvas" label="ButtonChoice.prefab::Canvas" />
+      <node id="Trigger_Target" label="Trigger_Target" />
+      <node id="DialoguePanel.prefab::Canvas" label="DialoguePanel.prefab::Canvas" />
+      <node id="DialoguePanel.prefab::Button" label="DialoguePanel.prefab::Button" />
+      <node id="ActionButton.prefab::Canvas" label="ActionButton.prefab::Canvas" />
+      <node id="ActionButton.prefab::Button" label="ActionButton.prefab::Button" />
+      <node id="InspectorIngredient.prefab::Canvas" label="InspectorIngredient.prefab::Canvas" />
+      <node id="IngredientForRecipe.prefab::Canvas" label="IngredientForRecipe.prefab::Canvas" />
+      <node id="AddToInventory_animation.prefab::Canvas" label="AddToInventory_animation.prefab::Canvas" />
+      <node id="InventoryScreen.prefab::Canvas" label="InventoryScreen.prefab::Canvas" />
+      <node id="InventoryScreen.prefab::Button" label="InventoryScreen.prefab::Button" />
+      <node id="InventoryTab.prefab::Canvas" label="InventoryTab.prefab::Canvas" />
+      <node id="InventoryTab.prefab::Button" label="InventoryTab.prefab::Button" />
+      <node id="InspectorDescription.prefab::Canvas" label="InspectorDescription.prefab::Canvas" />
+      <node id="InventoryItem.prefab::Canvas" label="InventoryItem.prefab::Canvas" />
+      <node id="InventoryItem.prefab::Button" label="InventoryItem.prefab::Button" />
+      <node id="Inventory Inspector.prefab::Canvas" label="Inventory Inspector.prefab::Canvas" />
+      <node id="Tab_Item.prefab::Canvas" label="Tab_Item.prefab::Canvas" />
+      <node id="Tab_Item.prefab::Button" label="Tab_Item.prefab::Button" />
+      <node id="ImagePagination.prefab::Canvas" label="ImagePagination.prefab::Canvas" />
+      <node id="Settings_Panel.prefab::Canvas" label="Settings_Panel.prefab::Canvas" />
+      <node id="Settings_Panel.prefab::Button" label="Settings_Panel.prefab::Button" />
+      <node id="Setting_Field.prefab::Button" label="Setting_Field.prefab::Button" />
+      <node id="Setting_Field.prefab::Canvas" label="Setting_Field.prefab::Canvas" />
+      <node id="Settings_Buttons_Panel.prefab::Button" label="Settings_Buttons_Panel.prefab::Button" />
+      <node id="Settings_Buttons_Panel.prefab::Canvas" label="Settings_Buttons_Panel.prefab::Canvas" />
+      <node id="Confirmation_Popup.prefab::Canvas" label="Confirmation_Popup.prefab::Canvas" />
+      <node id="Confirmation_Popup.prefab::Button" label="Confirmation_Popup.prefab::Button" />
+      <node id="GenericButton.prefab::Button" label="GenericButton.prefab::Button" />
+      <node id="GenericButton.prefab::Canvas" label="GenericButton.prefab::Canvas" />
+      <node id="Button.prefab::Button" label="Button.prefab::Button" />
+      <node id="Button.prefab::Canvas" label="Button.prefab::Canvas" />
+      <node id="UIButtonPrompt.prefab::Button" label="UIButtonPrompt.prefab::Button" />
+      <node id="UIButtonPrompt.prefab::Canvas" label="UIButtonPrompt.prefab::Canvas" />
+      <node id="Canvas-MainMenu.prefab::Canvas" label="Canvas-MainMenu.prefab::Canvas" />
+      <node id="Canvas-MainMenu.prefab::Button" label="Canvas-MainMenu.prefab::Button" />
+      <node id="ButtonMenu.prefab::Canvas" label="ButtonMenu.prefab::Canvas" />
+      <node id="ButtonMenu.prefab::Button" label="ButtonMenu.prefab::Button" />
+      <node id="MainMenu_Panel.prefab::Canvas" label="MainMenu_Panel.prefab::Canvas" />
+      <node id="MainMenu_Panel.prefab::Button" label="MainMenu_Panel.prefab::Button" />
+      <node id="Credits_Panel.prefab::Canvas" label="Credits_Panel.prefab::Canvas" />
+      <node id="Credits_Panel.prefab::Button" label="Credits_Panel.prefab::Button" />
+      <node id="LocationButton.prefab::Button" label="LocationButton.prefab::Button" />
+      <node id="LocationButton.prefab::Canvas" label="LocationButton.prefab::Canvas" />
+      <node id="EditorTeleporter.prefab::Canvas" label="EditorTeleporter.prefab::Canvas" />
+      <node id="EditorTeleporter.prefab::Button" label="EditorTeleporter.prefab::Button" />
+      <node id="PigChef.prefab::Toggle" label="PigChef.prefab::Toggle" />
+      <node id="BardHare.prefab::Toggle" label="BardHare.prefab::Toggle" />
+      <node id="ChefComb.prefab::Toggle" label="ChefComb.prefab::Toggle" />
+      <node id="DebugMenu.prefab::Button" label="DebugMenu.prefab::Button" />
+      <node id="DebugMenu.prefab::Canvas" label="DebugMenu.prefab::Canvas" />
+    </nodes>
+    <edges>
+      <edge source="ButtonChoice.prefab::Button" target="Trigger_Target" id="0" />
+      <edge source="ActionButton.prefab::Button" target="Trigger_Target" id="1" />
+      <edge source="InventoryTab.prefab::Button" target="Trigger_Target" id="2" />
+      <edge source="GenericButton.prefab::Button" target="Trigger_Target" id="3" />
+      <edge source="LocationButton.prefab::Button" target="Trigger_Target" id="4" />
+    </edges>
+  </graph>
+</gexf>
